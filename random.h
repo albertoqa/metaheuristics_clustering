@@ -3,14 +3,11 @@
 #include <string.h>
 #include <malloc/malloc.h>
 
-
 typedef int *TipoConfiguracion;
 
 typedef double **TipoCentros;
 
 typedef double **TTABLA;
-
-
 
 /***** GENERADOR DE NUMEROS PSEUDOALETORIOS *****/
 
@@ -33,8 +30,3 @@ typedef double **TTABLA;
 #define Randint(low,high) ( (int) (low + (high-(low)+1) * Rand()))
 
 #define Randfloat(low,high) ( (low + (high-(low))*Rand()))
-
-
- 
-                
- 
